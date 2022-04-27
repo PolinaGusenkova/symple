@@ -17,6 +17,7 @@ Total (synset_verb_counts.txt)
 Pages: 16200
 Verbs: 18297
 
+To run evaluation, add QuestEval to the evaluation folder from this repository: https://github.com/ThomasScialom/QuestEval
 
 Citations:
 Chatterjee, Niladri & Agarwal, Raksha. (2021).
