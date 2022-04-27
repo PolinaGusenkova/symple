@@ -18,6 +18,7 @@ Pages: 16200
 Verbs: 18297
 
 To run evaluation, add QuestEval to the evaluation folder from this repository: https://github.com/ThomasScialom/QuestEval
+The data folder also contains sample data, simplified version obtained with MUSS (https://github.com/facebookresearch/muss), and the simplification results of SYmpLE, including syntactical and lexical simplification separately. 
 
 Citations:
 Chatterjee, Niladri & Agarwal, Raksha. (2021).
