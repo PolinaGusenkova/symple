@@ -1,0 +1,25 @@
+Coreference resolution systems typically operate. Coreference resolution systems eg contribute a coreference link between two mentions. Coreference resolution systems by make sequences of local decisions make sequences of local decisions. Coreference resolution systems contribute a coreference link between two mentions.
+However most measures of coreference resolution performance do not disintegrate over local decisions. Local decisions the utility of a particular decision is not known. All other decisions have been made. Local decisions.
+Due to this difficulty coreference systems are usually trail with loss functions that heuristically define the goodness of a particular coreference decision.
+The model to see. The model performs well according to coreference evaluation metrics. These losses contain hyperparameters that are carefully selected.
+Where systems may work best with different settings of the hyperparameters. This complicates training especially across different languages and datasets.
+We to directly optimize a coreference system for coreference evaluation metrics. We to optimize a coreference system for coreference evaluation metrics. We explore using two variants of reinforcement learning. We To address this address this.
+In particular we modify the max margin coreference objective offer by Wiseman et al.
+We also test the REINFORCE policy gradient algorithm.
+Our model is a neural mention ranking model.
+Mention ranking models. Mention ranking models score pairs of mentions for their likelihood of coreference. Compare partial coreference clusters. Than compare partial coreference clusters.
+Hence they operate in a simple setting. Where coreference decisions are made independently.
+Mention ranking models causing them to be the dominant approach to coreference in recent years simple to train. Mention ranking models have them to be the dominant approach to coreference in recent years. Mention ranking models are fast scalable. Although they are expressive than entity centric approaches to coreference.
+Because it means. Is particularly useful. This is when apply reinforcement learning. Having independent actions. A particular action s effect on the final reward can be computed.
+We evaluate the models on the English and Chinese portions of the CoNLL 2012 Shared Task.
+While the reward rescaled objective exceed both. The REINFORCE algorithm is competitive with a heuristic loss function.
+As well as benefit from directly optimize for coreference metrics. We assign this to reward rescaling being well suited for a ranking task due to its max margin loss.
+Error analysis shows. Uses the reward rescales loss. The mistakes tend to be less severe. Error analysis that results in a similar number of mistakes as the heuristic loss results in a similar number of mistakes as the heuristic loss.
+We use the neural mention ranking model described in Clark and Manning 2016. The neural mention ranking model we briefly go over in this section.
+The mention ranking model Given a mention m and candidate antecedent c. The mention ranking model signal their compatibility for coreference with a feedforward neural network. The mention ranking model produces a score for the pair s c m.
+The candidate antecedent may be any mention that occurs before m in the document or NA. The candidate antecedent that occurs before m in the document or NA suggest. M has no antecedent.
+Was eg all words in the mention s sentence that are Fed into the neural network is. Various words and groups of words were eg the mention s head word. Various words and groups is eg all words in the mention s sentence that are Fed into the neural network. For each mention the model extracts various words and groups of words.
+Each word is represented by a vector wi Rdw.
+Each group of words is represented by the average of the vectors of each word in the group.
+In addition to the embeddings a small number of additional features are used. A small number of additional features include distance string matching and speaker identification features.
+See Clark and Manning 2016 for the full set of features and an ablation study.

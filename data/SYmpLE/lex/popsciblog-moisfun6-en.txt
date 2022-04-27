@@ -1,0 +1,25 @@
+Speech recognition is invading our lives.
+It s built into our phones our game consoles and our smart watches.
+It s even automating our homes.
+For just 50 you can get an Amazon Echo Dot a magic box that allows you to order pizza get a weather report or even buy trash bags just by speaking out loud.
+The Echo Dot has been so popular this holiday season that Amazon can t seem to continue them in stock.
+But speech recognition has been around for decades so why is it just now hitting the mainstream.
+The reason is that deep learning finally made speech recognition accurate enough to be useful outside of carefully see environments.
+Andrew Ng has long call that as speech recognition goes from 95 accurate to 99 accurate it will become a primary way that we interact with computers.
+The idea is that this 4 accuracy gap is the difference between annoyingly unreliable and incredibly useful.
+Thanks to Deep Learning we re finally cresting that peak.
+Let s learn how to do speech recognition with deep learning.
+Machine Learning isn t always a Black Box.
+If you know how neural machine translation works you might guess that we could simply feed sound recordings into a neural network and train it to produce text.
+That s the holy grail of speech recognition with deep learning but we aren t quite there yet at least at the time that I wrote this I bet that we will be in a couple of years.
+The big problem is that speech varies in speed.
+One person might say hello very quickly and another person might say heeeelllllllllllllooooo very slowly producing a much longer sound file with much more data.
+Both both sound files should be recognized as exactly the same text hello.
+Automatically adjust audio files of various lengths to a fixed length piece of text turns out to be pretty hard.
+To work around this we have to habit some special tricks and extra precessing in addition to a deep neural network.
+Allow s see how it works.
+The first step in speech recognition is obvious we need to feed sound waves into a computer.
+In Part 3 we learned how to take an image and process it as an array of numbers so that we can feed directly into a neural network for image recognition.
+But sound is carry as waves.
+How do we turn sound waves into numbers.
+Let s use this sound clip of me expression Hello.

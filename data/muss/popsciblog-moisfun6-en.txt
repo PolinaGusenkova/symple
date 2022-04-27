@@ -1,0 +1,25 @@
+Speech recognition is changing our lives.
+They are built into our phones, smart watches, and game consoles.
+Even our homes are being automated.
+For just $50, you can get an Amazon Echo Dot, a magic box that allows you to buy trash bags, get a weather report and order pizza just by speaking out loud.
+The Echo Dot has been so popular this holiday season that Amazon has not been able to keep it in stock.
+But speech recognition has been around for a long time, so why is it just now being used?
+The reason for this is that deep learning finally made speech recognition accurate enough to be used outside of training environments.
+Andrew Ng has said for a long time that when speech recognition goes from 95% accurate to 99% accurate, we will use computers more and more.
+The idea is that this 4% difference is the difference between very useful and very unreliable.
+Deep learning has finally reached its peak.
+Let's take a look at speech recognition with deep learning.
+Machine learning is not always a bad thing.
+If you know how neural machine translation works, you might think that we could simply feed a neural network sound recordings and train it to create text.
+This is the holy grail of deep learning speech recognition, but we are not quite there yet (at least not yet). I bet that we will be in a couple of years (at least).
+The main problem is that the speed varies.
+One person might say "hello" very quickly, and the other person might say "heeeelllllllllllllooooo" very slowly. This will make a longer sound file.
+Both both sound files should be recognized as the same sound file.
+Automatically aligning different length audio files to a given piece of text turns out to be quite hard.
+To work around this, we need to use some special tricks and more processing as well as a deep neural network.
+Let us see how it works.
+The first step in speech recognition is obvious. A computer needs to be fed sound waves.
+In Part 3, we learned how to take an image and treat it as an array of numbers so that a neural network can be fed directly into it.
+The sound is sent out as waves.
+How do numbers turn into sound waves?
+For example, let's use this sound clip.

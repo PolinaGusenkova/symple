@@ -1,0 +1,25 @@
+Coreference resolution systems typically operate by making sequences of local decisions eg adding a coreference link between two mentions.
+However most measures of coreference resolution performance do not disintegrate over local decisions which means the utility of a particular decision is not known until all other decisions have been made.
+Due to this difficulty coreference systems are usually trail with loss functions that heuristically define the goodness of a particular coreference decision.
+These losses contain hyperparameters that are carefully selected to see the model performs well according to coreference evaluation metrics.
+This complicates training especially across different languages and datasets where systems may work best with different settings of the hyperparameters.
+To address this we explore using two variants of reinforcement learning to directly optimize a coreference system for coreference evaluation metrics.
+In particular we modify the max margin coreference objective offer by Wiseman et al 2015 by incorporating the reward associated with each coreference decision into the loss s slack rescaling.
+We also test the REINFORCE policy gradient algorithm.
+Our model is a neural mention ranking model.
+Mention ranking models score pairs of mentions for their likelihood of coreference rather than comparison partial coreference clusters.
+Hence they operate in a simple setting where coreference decisions are made independently.
+Although they are less expressive than entity centric approaches to coreference mention ranking models are fast scalable and simple to train causing them to be the dominant approach to coreference in recent years.
+Having independent actions is particularly useful when use reinforcement learning because it way a particular action s effect on the final reward can be computed efficiently.
+We evaluate the models on the English and Chinese portions of the CoNLL 2012 Shared Task.
+The REINFORCE algorithm is competitive with a heuristic loss function while the reward rescaled objective significantly exceed both.
+We assign this to reward rescaling being well suited for a ranking task due to its max margin loss as well as benefiting from directly optimizing for coreference metrics.
+Error analysis shows that using the reward rescaling loss results in a similar number of mistakes as the heuristic loss but the mistakes tend to be less severe.
+We use the neural mention ranking model described in Clark and Manning 2016 which we briefly go over in this section.
+Given a mention m and candidate antecedent c the mention ranking model produces a score for the pair s c m signal their compatibility for coreference with a feedforward neural network.
+The candidate antecedent may be any mention that occurs before m in the document or NA suggest that m has no antecedent.
+For each mention the model extracts various words eg the mention s head word and groups of words eg all words in the mention s sentence that are Fed into the neural network.
+Each word is represented by a vector wi Rdw.
+Each group of words is represented by the average of the vectors of each word in the group.
+In addition to the embeddings a small number of additional features are used including distance string matching and speaker identification features.
+See Clark and Manning 2016 for the full set of features and an ablation study.

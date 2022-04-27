@@ -1,0 +1,26 @@
+At the center of Earth sits the planet's fiery core, which scientists say might be losing heat faster than expected.
+Earth's core has been cooling since the planet formed some 4.5 billion years ago, when the entire surface was covered with oceans of magma.
+Scientific understanding of how quickly this cooling occurs was challenged in a study published January 15 that suggests the process is moving much faster than scientists thought.
+The discovery, by researchers from Switzerland, Germany, the US and Japan, adds to a body of research that supports the idea that radiation plays a bigger role in heat extraction from the Earth's core than once assumed.
+The core-mantle boundary lies between the Earth's lower mantle and its liquid core.
+Scientists believe it is largely composed of a mineral called bridgmanite, characterized and named after physicist Percy Bridgman in 2014.
+Scientists consider bridgmanite the most abundant mineral on the planet.
+"We eventually found that the previous thermal conductivity value [of bridgmanite] was highly underestimated," said Motohiko Murakami, an earth sciences professor at ETH Zurich and lead author of the study.
+Murakami and his colleagues found that the thermal conductivity of bridgmanite was 1.5 times higher than expected.
+"The heat transfer from the core would go more efficiently than previously thought, which ultimately leads to the cooling of the core more rapidly than expected," Murakami said.
+Scientists are not able to reach the Earth's core, which makes it hard to study.
+What they can do are geophysical studies and experiments that simulate the conditions deep down in the Earth.
+This is what Murakami's team attempted to do by synthesizing the mineral bridgmanite, said Helen Williams, a geochemist at the University of Cambridge in the United Kingdom who was not involved in the study.
+A synthetic mineral is one scientists have made themselves in the lab, rather than found in nature.
+The equipment Murakami and his colleagues used to work this out can fit in your hand: a diamond anvil cell.
+A mineral sample is placed in a tiny chamber, where it's compressed by diamond walls from all sides. 
+The sample is heated by a laser that shines through the diamond, said Karin Sigloch, a geophysicist at the French National Center for Scientific Research and Côte d'Azur University, who was also not involved in the study.
+"This produces tiny rock samples that are hopefully equivalent to those in the deep earth," she said.
+"The conventional wisdom has been that radiation does not contribute significantly to heat transport anywhere in the solid Earth," Gerd Steinle-Neumann, who researches the Earth's interior at the University of Bayreuth in Germany and was not involved in the study, told DW.
+"The experiments by Murakami confirm previous studies that radiation can enhance heat extraction from the core to the mantle by approximately 50%, speeding up heat loss from the entire Earth," Steinle-Neumann said.
+Singloch said the result from Murakami and his colleagues' research is significant, but that she noticed a gap between the findings and the paper's discussion about tectonic implications.
+"The result is an important one," Sigloch said, adding that it helps clarify that radiative heat transfer and conductive heat transfer likely play more comparable roles than previously assumed in the core's cooling.
+"This is a number that contributes to our quantitative understanding of core cooling, and how core cooling contributes to mantle behavior," she said.
+But, even if the Earth is cooling faster, it won't have an impact on the current climate crisis.
+"This is planetary cooling taking place on billion-year timescales, whereas the current anthropogenic global heating is taking place on decadal timescales," Williams said.
+

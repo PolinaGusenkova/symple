@@ -1,0 +1,25 @@
+Speech recognition is invading our lives.
+Its built into our phones our game consoles and our smart watches.
+Its even automating our homes.
+Get a weather report. Is is a magic box that allows you to order pizza. For just 50 you can get an Amazon Echo Dot. Even buy trash bags. By speak out loud.
+The Echo Dot has been so popular this holiday season. That Amazon nt seem to keep them in stock.
+So why is it now hitting the mainstream. But speech recognition has been around for decades.
+The reason is. That deep learning finally made speech recognition accurate to be useful outside of carefully controlled environments.
+A primary way that we interact with computers. It will become a primary way. Andrew Ng has long predicted. As speech recognition goes from 95 accurate to 99 accurate.
+The idea is that this 4 accuracy gap is the difference between annoyingly unreliable and incredibly useful.
+Thanks to Deep Learning were finally cresting that peak.
+Lets learn how to do speech recognition with deep learning.
+Machine Learning isnt always a Black Box.
+We and train it to produce text train it to produce text. How neural machine translation works. You know. You might guess. That we could feed sound recordings into a neural network.
+Thats the holy grail of speech recognition with deep learning I bet that we will be in a couple of years. We arent quite there yet at least at the time that I wrote this.
+The big problem is. Speech varies in speed.
+One person might say hello.
+Both both sound files should be recognized as exactly the same text hello.
+Automatically aligning audio files of various lengths to a fixed-length piece of text turns out to be pretty hard.
+We To work around this work around this. We have to use some special tricks and extra precessing in addition to a deep neural network.
+It works. Lets see.
+The first step in speech recognition is obvious. We need to feed sound waves into a computer.
+Treat it as an array of numbers. So that we can feed into a neural network for image recognition. In Part 3 we learned how to take an image.
+But sound is transmitted as waves.
+How do we turn sound waves into numbers.
+Say Hello. Lets use this sound clip of me.
